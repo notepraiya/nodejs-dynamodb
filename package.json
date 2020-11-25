@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-dynamodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "env-cmd node main.js",
+    "config": "env-cmd node config.js",
+    "create-table": "env-cmd node create-table.js",
+    "delete-table": "env-cmd node delete-table.js",
+    "put-item": "env-cmd node put-item.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notepraiya/nodejs-dynamodb.git"
+  },
+  "author": "Note Praiya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notepraiya/nodejs-dynamodb/issues"
+  },
+  "homepage": "https://github.com/notepraiya/nodejs-dynamodb#readme",
+  "dependencies": {
+    "aws-sdk": "^2.799.0",
+    "env-cmd": "^10.1.0",
+    "uuid": "^8.3.1"
+  }
+}
